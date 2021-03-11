@@ -88,7 +88,7 @@ a:hover::after {
 /* GENRE */
 .content-box26 {
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
 }
 
 .youtube {
@@ -97,7 +97,7 @@ a:hover::after {
 
 .box26 {
     width: 400px;
-    height: 200px;
+    height: 300px;
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
@@ -119,7 +119,7 @@ a:hover::after {
     border-radius: 8px;
 }
 .box26 p {
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
@@ -135,7 +135,7 @@ a:hover::after {
     width: 600px;
     height: 500px;
     background: rgb(144, 159, 245);
-    
+
 }
 
 .left h2{
