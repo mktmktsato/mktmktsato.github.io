@@ -1,0 +1,215 @@
+h1:first-letter {
+    font-size: 2em;
+    color: #e21313;
+  }
+
+/* ヘッダー */
+
+header {
+    background-image: url(../img/green_00119.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: #00b300; */
+    padding: 20px 100px;
+    /* display: flex; */
+    /* メニューを端っこに寄せる */
+    /* justify-content: space-between; */
+    /* 高さ真ん中 */
+    align-items: center;
+}
+
+.container1 {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 img {
+    width: 200px;
+    height: 183px;
+}
+.material-icons {
+    width: 200px;
+    height: 70px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.navi {
+    height: 60px;
+    text-align: center;
+}
+
+.navi>ul>li {
+    float: left;
+    width: 20%;
+}
+
+.navi>ul>li>a {
+    color: #ccffcc;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: orangered;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+a:hover::after {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+
+/* メインコンテンツ */
+/* SNS */
+
+
+/* news */
+.news {
+    text-align: center;
+    margin: 2%   20%;
+    /* padding: 20%; */
+}
+
+/* GENRE */
+.content-box26 {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.youtube {
+    margin: 10%   15%;
+}
+
+.box26 {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: rgb(219, 240, 243);
+    color: #95ccff;
+    font-weight: bold;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box26 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+/* more */
+.more {
+    margin: 2%   10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 600px;
+    height: 500px;
+    background: rgb(144, 159, 245);
+    
+}
+
+.left h2{
+    border-radius: 5%;
+    background: black;
+    color: white;
+    padding: 2px;
+}
+
+.right {
+    width: 300px;
+    height: 500px;
+    background: rgb(247, 247, 146);
+}
+
+.right h2{
+    border-radius: 5%;
+    background: black;
+    color: white;
+    padding: 2px;
+}
+
+.partsH3-1 {
+    margin: 60px 0 24px;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid #ff7364;
+    color: #444;
+    font-size: 28px;
+    font-weight: 700!important;
+    line-height: 1.5;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+#programming, #english , #arnis{
+    width: 100%;
+}
+
+#programming>h2, #english>h2, #arnis>h2 {
+    font-size: 40px;
+    text-align: center;
+    color: grey;
+    padding-top: 40px;
+}
+
+.contents {
+    display: flex;
+    align-items: cnter;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+
+.description {
+    width: 50%;
+}
+
+/* 参考サイト */
+.contents>img {
+    height: 150px;
+    margin: 0 20px;
+}
+
+footer {
+    background-color: rgb(6, 39, 60);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    font-size: 20px;
+}
